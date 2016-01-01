@@ -1,15 +1,16 @@
 ---
+title: "Try the New Vegan Black Bean Burger at Wendys"
+description: "Wendys is testing a new vegan black bean burger at 24 locations across the US. Find out if there's one near you."
 ---
 
-<!doctype html>
 <html>
 <head>
-	<meta property="og:title" content="{{site.title}}">
+	<meta property="og:title" content="{{page.title}}">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://drewrwilson.com/wendys-black-bean-burger/">
-	<meta property="og:image" content="https://drewrwilson.com/wendys-black-bean-burger/black-bean-burger.jpg">
+	<meta property="og:url" content="http://act.vegfest.org/wendys-black-bean-burger/">
+	<meta property="og:image" content="http://act.vegfest.org/wendys-black-bean-burger/black-bean-burger.jpg">
 	<meta property="og:site_name" content="Try the New Vegan Wendys Black Bean Burger">
-	<meta property="og:description" content="{{site.description}}">
+	<meta property="og:description" content="{{page.description}}">
 
 
 
@@ -90,7 +91,7 @@
 <body>
   <div class="row">
   	<div class="col-md-12" style="background: #2981ca; width:100%; padding: 20px 0 40px 10%">
-  		<h1 style="color:#e9f2f9; text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);">{{site.title}}</h1>
+  		<h1 style="color:#e9f2f9; text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);">{{page.title}}</h1>
   	</div>
 	</div>
 
