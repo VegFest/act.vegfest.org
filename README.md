@@ -1,4 +1,3 @@
-Wendys with the new vegan black bean burger`
-=================
+# act.vegfest.org
 
-A map and a list of all the locations of Wendys that are test-marketting the new vegan black bean burger.
+The campaign software that powers our fantastic organization.
