@@ -81,47 +81,54 @@
 }
 
   </style>
+
   <script src="../leaflet.js"></script>
   <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-
-
 	<script src="../func.js"></script>
 </head>
 <body>
-  <div class="row" >
-  		<div class="col-md-12" style="background: #2981ca; width:100%; padding: 20px 0 40px 10%">
-  <h1 style="color:#e9f2f9; text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);">{{site.title}}</h1>
-  		</div>
-
-
-	</div>
-  <div id="map-div"></div>
-
-
-
-
-<div class="container">
   <div class="row">
-    <div class="col-md-8">
-      <h1>Wendys is testing a new vegan black bean burger at {{site.data.wendys | size}} locations across the US.</h1>
-      <h2>
-        If the black bean burger does well at these locations, Wendys may roll it out to other stores. If you live near one of these locations, please go support it.
-      </h2>
-    </div>
-    <div class="col-md-4">
-      <img src="black-bean-burger.jpg" class="img-responsive" alt="" style="padding-top:20px;" />
-    </div>
-  </div>
-      <h2 style="color:#2981ca;">Locations:</h2>
-  <ul>
-    {% for item in site.data.wendys %}
-        <li>
-          <h2><i class="fa fa-map-marker"></i> <span class="address">{{item.address}}, {{item.city}}, {{item.state}} (<a href="http://maps.google.com/?q={{item.address}}%20{{item.city}}%20{{item.state}}%20{{item.zip}}">google maps</a>)</span></h2>
-        </li>
-    {% endfor %}
-	</ul>
-</div>
+  	<div class="col-md-12" style="background: #2981ca; width:100%; padding: 20px 0 40px 10%">
+  		<h1 style="color:#e9f2f9; text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);">{{site.title}}</h1>
+  	</div>
+	</div>
+
+	<div id="map-div"></div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<form accept-charset="UTF-8" action="https://formkeep.com/f/02515915d774" method="POST">
+				 <input type="hidden" name="utf8" value="✓">
+				 <input type="text" name="first_name" placeholder="First Name" required>
+				 <input type="text" name="last_name" placeholder="Last Name" required>
+				 <input type="email" name="email" placeholder="Your Email" required>
+				 <input type="number" name="zip_code" placeholder="Zip Code" required>
+				 <button type="submit">Submit</button>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+	    <div class="col-md-8">
+	      <h1>Wendys is testing a new vegan black bean burger at {{site.data.wendys | size}} locations across the US.</h1>
+	      <h2>
+	        If the black bean burger does well at these locations, Wendys may roll it out to other stores. If you live near one of these locations, please go support it.
+	      </h2>
+	    </div>
+	    <div class="col-md-4">
+	      <img src="black-bean-burger.jpg" class="img-responsive" alt="" style="padding-top:20px;" />
+	    </div>
+	  </div>
+	      <h2 style="color:#2981ca;">Locations:</h2>
+	  <ul>
+	    {% for item in site.data.wendys %}
+	        <li>
+	          <h2><i class="fa fa-map-marker"></i> <span class="address">{{item.address}}, {{item.city}}, {{item.state}} (<a href="http://maps.google.com/?q={{item.address}}%20{{item.city}}%20{{item.state}}%20{{item.zip}}">google maps</a>)</span></h2>
+	        </li>
+	    {% endfor %}
+		</ul>
+	</div>
 <script type="text/javascript">
 var geojsonMarkerOptions = {
 		radius: 8,
