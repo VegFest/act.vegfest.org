@@ -12,8 +12,6 @@ description: "Wendys is testing a new vegan black bean burger at 24 locations ac
 	<meta property="og:site_name" content="Try the New Vegan Wendys Black Bean Burger">
 	<meta property="og:description" content="{{page.description}}">
 
-
-
   <link rel="stylesheet" href="../leaflet.css" />
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
@@ -100,13 +98,30 @@ description: "Wendys is testing a new vegan black bean burger at 24 locations ac
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<form accept-charset="UTF-8" action="https://formkeep.com/f/02515915d774" method="POST">
-				 <input type="hidden" name="utf8" value="✓">
-				 <input type="text" name="first_name" placeholder="First Name" required>
-				 <input type="text" name="last_name" placeholder="Last Name" required>
-				 <input type="email" name="email" placeholder="Your Email" required>
-				 <input type="number" name="zip_code" placeholder="Zip Code" required>
-				 <button type="submit">Submit</button>
+				<form accept-charset="UTF-8" action="https://formkeep.com/f/02515915d774" method="POST" class="form-inline">
+					<input type="hidden" name="utf8" value="✓">
+
+					<div class="form-group">
+						<label class="sr-only" for="first_name">First Name</label>
+						<input type="text" id="first_name" class="form-control" name="first_name" placeholder="First Name" required>
+					</div>
+
+					<div class="form-group">
+						<label class="sr-only" for="last_name">Last Name</label>
+						<input type="text" id="last_name" class="form-control" name="last_name" placeholder="Last Name" required>
+					</div>
+
+					<div class="form-group">
+						<label class="sr-only" for="email">Your Email</label>
+						<input type="email" id="email" class="form-control" name="email" placeholder="Your Email" required>
+					</div>
+
+					<div class="form-group">
+						<label class="sr-only" for="zip_code">Zip Code</label>
+						<input type="number" id="zip_code" class="form-control" name="zip_code" placeholder="Zip Code" required>
+				 	</div>
+					
+				 <button type="submit" class="btn btn-primary">Submit</button>
 				</form>
 			</div>
 		</div>
