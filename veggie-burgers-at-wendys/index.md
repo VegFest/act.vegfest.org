@@ -6,7 +6,7 @@ description: "Wendys is testing a new vegan black bean burger at 24 locations ac
 <html>
 <head>
 	<meta property="og:title" content="{{page.title}}">
-	<meta property="og:type" content="website">
+	<meta property="og:type" content="article">
 	<meta property="og:url" content="http://act.vegfest.org/veggie-burgers-at-wendys/">
 	<meta property="og:image" content="http://act.vegfest.org/veggie-burgers-at-wendys/black-bean-burger.jpg">
 	<meta property="og:site_name" content="Try the New Vegan Wendys Black Bean Burger">
