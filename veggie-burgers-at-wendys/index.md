@@ -140,7 +140,7 @@ description: "Wendys is testing a new vegan black bean burger at 24 locations ac
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-			ga('create', 'UA-1111502-19', 'auto');
+			ga('create', '{{site.google_analytics_token}}', 'auto');
 			ga('send', 'pageview');
 		</script>
   </body>
