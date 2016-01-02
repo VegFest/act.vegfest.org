@@ -31,7 +31,7 @@ function jfpioam(data){
       }
   }
 
-    var map = L.map('map-div', {scrollWheelZoom: false}).setView([39.7595884,-95], 4);
+    var map = L.map('map-div', {scrollWheelZoom: false}).setView([39.7595884,-95], 3);
 
   L.tileLayer('https://{s}.tiles.mapbox.com/v3/drewrwilson.i6935ig3/{z}/{x}/{y}.png', {
       attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>',
