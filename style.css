@@ -1,30 +1,50 @@
+---
+---
+
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   }
 
 html, body {
   height: 100%;
+  color: #404040;
 }
 
 #campaign-header {
-  background-color: #2981ca;
+  background-color: {{site.brand.colors.yellow}};
   padding: 20px 0 40px 10%;
 }
 
+#campaign-header p {
+  font-weight: {{site.brand.fontface.secondaryweight}};
+}
 #campaign-header h1 {
-  color: #e9f2f9;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  /*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);*/
+  font-weight: {{site.brand.fontface.primaryweight}};
+  font-size: 3em;
 }
 
 #ask {
-  background-color: red;
+  background-color: {{site.brand.colors.green}};
+  padding-top: 0.5%;
+  padding-bottom: 1%;
 }
 
 #ask-body {
-  background-color: green;
+  background-color: {{site.brand.colors.blue}};
+  padding-top:1%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
+#ask-body .btn {
+  background-color: {{site.brand.colors.red}};
+  padding:10px;
+}
 #map-div {
   min-height: 30em;
 }

@@ -13,11 +13,11 @@ description: "Wendys is testing a new vegan black bean burger at 24 locations ac
 		<meta property="og:description" content="{{page.description}}">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link rel="stylesheet" href="../style.css" />
-	  <link rel="stylesheet" href="../leaflet.css" />
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../leaflet.css" />
+		<link rel="stylesheet" href="../style.css" />
 
 	  <!--[if lte IE 8]>
 	     <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
@@ -30,15 +30,13 @@ description: "Wendys is testing a new vegan black bean burger at 24 locations ac
 	</head>
 	<body>
 		<div class="container-fluid">
+			<header class="row" id="campaign-header">  
+				<h1>Heading one</h1>
+				<p>More test here</p>
+			</header>
 
-			<div class="row">
-				<div id="campaign-header" class="col-md-12">
-					<h1>{{page.title}}</h1>					
-					<p>Great green globs of greasy grimy gopher guts.</p>
-				</div>
-			</div>
 
-			<div class="row" id="ask">
+			<section class="row" id="ask">
 				<div class="col-sm-4 col-sm-offset-4" id="ask-body">
 					<h2>Sign our Petition!</h2>
 
@@ -67,14 +65,14 @@ description: "Wendys is testing a new vegan black bean burger at 24 locations ac
 							<input type="number" id="zip_code" class="form-control" name="zip_code" placeholder="Zip Code" required>
 						</div>
 
-						<button type="submit" class="btn btn-primary">Sign the Petition</button>					
+						<button type="submit" class="btn btn-lg btn-primary">Sign the Petition</button>					
 					</form>
 
 					<div class="privacy">
 						We respect your privacy: <a href="/privacypolicy">Privacy Policy</a>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			<div class="row">
 				<div class="col-md-8">

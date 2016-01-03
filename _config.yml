@@ -1,2 +1,15 @@
 permalink: /404.html
 google_analytics_token: UA-1111502-19
+brand:
+  colors:
+    blue: '#3FBFBC'
+    red: '#EE4823'
+    green: '#B5BE24'
+    yellow: '#F8C238'
+  fontface:
+    primary: "'Open Sans', sans-serif"  #need to include this as a web font somehow
+    primaryweight: 800
+    secondary: "'Open Sans', sans-serif" #web font include
+    secondaryweight: 300
+    body: "'Open Sans', sans-serif"
+    bodyweight: 400
