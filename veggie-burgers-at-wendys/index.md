@@ -1,5 +1,5 @@
 ---
-title: "Wendy's now offering a veggie burger in 3 states"
+title: "Wendy's now offering a veggie burgers in 3 states"
 description: "Wendy's is currently offering a new vegan black bean burger at 24 locations across the US. Find out if there's one near you. Tell Wendy's you want vegetarian options at all their locations."
 base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 ---
