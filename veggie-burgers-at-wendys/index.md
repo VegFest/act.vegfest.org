@@ -37,11 +37,10 @@ description: "Wendy's is testing a new vegan black bean burger at 24 locations a
 
 			<section class="row" id="ask">
 				<div class="col-sm-4 col-sm-offset-4" id="ask-body">
-					<h2>We Want Veggie Burgers!</h2>					
+					<h2>Tell Wendy's you want veggie burgers</h2>					
 
-					<p>With your support we can let Wendy's know that we want to see veggie
-					burgers at all of their locations. Sign up and we'll keep you posted
-					as the campaign goes on.</p>
+					<p>Wendy's is currently testing vegan black bean burgers at 24 locations across the country. If you live in Ohio, Utah or South Carolina, go buy a burger to show your support. We need to show Wendy's how much we want vegan options.</p>
+					<p><strong>Sign now to tell Wendy's that we want veggie burgers everywhere.</strong></p>
 
 					<form accept-charset="UTF-8" action="https://formkeep.com/f/02515915d774" method="POST" class="form">
 						<input type="hidden" name="utf8" value="✓">
