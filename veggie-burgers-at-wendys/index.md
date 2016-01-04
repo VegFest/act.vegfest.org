@@ -8,7 +8,8 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys
 	<head>
 		<meta property="og:type" content="article">
 		<meta property="og:url" content="{{page.base-url}}">
-		<meta property="og:image" content="{{page.base-url}}/black-bean-burger.jpg">		
+		<meta property="og:image" content="{{page.base-url}}/black-bean-burger.jpg">
+		<meta property="og:title" content="{{page.title}}">
 		<meta property="og:site_name" content="{{page.title}}">
 		<meta property="og:description" content="{{page.description}}">
 
