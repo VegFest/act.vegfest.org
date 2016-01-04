@@ -146,3 +146,6 @@ footer {
   background-image: url(images/carrot-tile.png);
   background-repeat: repeat;
 }
+.privacy {
+  font-size: .80em;
+}

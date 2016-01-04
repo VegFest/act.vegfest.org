@@ -80,14 +80,20 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 					</form>
 
 					<div class="privacy">
-						We respect your privacy: <a href="/privacypolicy">Privacy Policy</a>
+						<a href="http://vegfest.org">VegFest</a> will contact you with news & updates.
 					</div>
 				</div>
 			</section>
 
-			<div class="row">
-				<div class="text-center col-md-12">
-					<h2>Go Eat a Burger:</h2>
+			<div class="row" style="padding-left: 10%;padding-right: 10%;padding-bottom: 5%;">
+				<div class="col-md-12">
+					<h1>Do you live in Ohio, Utah or South Carolina?</h1>
+					<p>
+						Wendy's is testing this veggie burger at these few locations to gauge the interest in vegetarian options. Based on how well the black bean burger sells at these locations, Wendy's may
+						then choose to roll out vegetarian options to their other stores. So if you live near one of these
+						locations, please go out to your local store and show your support.
+					</p>
+
 				</div>
 			</div>
 
@@ -95,20 +101,9 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 				<div class="col-md-12">
 					<div id="map-div"></div>
 				</div>			
-				<div class="hidden">
-					<h2>Go get the new veggie burger!</h2>
-					<p>
-						Do you live near a Wendy's that is testing the burger? Find out below!
-						Go visit your local Wendy's and support this initiative. Buy a tasty new
-						burger!
-					</p>
-					<p>
-						If the black bean burger does well at these locations, Wendy's may
-						roll it out to other stores. If you live near one of these
-						locations, please go support it.
-					</p>
-				</div>
 			</div>
+
+			<h2>Wendy's locations with the new veggie burger:</h2>
 
 			<div class="row" id="location-list">
 				<div class="col-sm-4">
