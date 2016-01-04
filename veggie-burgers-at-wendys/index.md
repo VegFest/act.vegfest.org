@@ -13,6 +13,11 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys
 		<meta property="og:site_name" content="{{page.title}}">
 		<meta property="og:description" content="{{page.description}}">
 
+		<meta name="twitter:card" content="summary_large_image">				
+		<meta name="twitter:title" content="{{page.title}}">
+		<meta name="twitter:description" content="{{page.description}}">
+		<meta name="twitter:image" content="{{page.base-url}}/black-bean-burger.jpg">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
