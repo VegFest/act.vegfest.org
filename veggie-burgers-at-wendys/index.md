@@ -75,55 +75,78 @@ description: "Wendy's is testing a new vegan black bean burger at 24 locations a
 			</section>
 
 			<div class="row">
-				<div class="col-md-8">
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-6">
-					<h2>Want to see this near you?</h2>
-					<p>
- 						Help us tell Wendy's that we want to see this new black bean burger in
-						stores near us. Imagine if we all had these nearby!
-					</p>
-				</div>
-		    <div class="col-md-6">
-		      <img src="black-bean-burger.jpg" class="img-responsive" alt="" style="padding-top:20px;" />
-		    </div>
-		  </div>
-
-			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12">
 					<div id="map-div"></div>
 				</div>			
-				<div class="col-md-6">
+				<div class="hidden">
 					<h2>Go get the new veggie burger!</h2>
 					<p>
-					Do you live near a Wendy's that is testing the burger? Find out below!
-					Go visit your local Wendy's and support this intiative. Buy a tasty new
-					burger!
+						Do you live near a Wendy's that is testing the burger? Find out below!
+						Go visit your local Wendy's and support this initiative. Buy a tasty new
+						burger!
 					</p>
 					<p>
-					If the black bean burger does well at these locations, Wendy's may
-					roll it out to other stores. If you live near one of these
-					locations, please go support it.
+						If the black bean burger does well at these locations, Wendy's may
+						roll it out to other stores. If you live near one of these
+						locations, please go support it.
 					</p>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-md-4">
-		      <h2 style="color:#2981ca;">Locations:</h2>
-
-				  <ul>
-				    {% for item in site.data.wendys %}
-				        <li>
-				          <h2><i class="fa fa-map-marker"></i> <span class="address">{{item.address}}, {{item.city}}, {{item.state}} (<a href="http://maps.google.com/?q={{item.address}}%20{{item.city}}%20{{item.state}}%20{{item.zip}}">google maps</a>)</span></h2>
-				        </li>
-				    {% endfor %}
+					<h2>Ohio</h2>
+					<ul>
+						{% for item in site.data.ohio %}
+							<li>
+								<i class="fa fa-map-marker"></i>
+								<a href="http://maps.google.com/?q={{item.latitude}},{{item.longitude}}">							
+									{{item.address}}, {{item.city}}, {{item.state}}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h2>Utah</h2>
+					<ul>
+						{% for item in site.data.ut %}
+							<li>
+								<i class="fa fa-map-marker"></i>
+								<a href="http://maps.google.com/?q={{item.latitude}},{{item.longitude}}">							
+									{{item.address}}, {{item.city}}, {{item.state}}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<h2>South Carolina</h2>
+					<ul>
+						{% for item in site.data.sc %}
+							<li>
+								<i class="fa fa-map-marker"></i>
+								<a href="http://maps.google.com/?q={{item.latitude}},{{item.longitude}}">							
+									{{item.address}}, {{item.city}}, {{item.state}}
+								</a>
+							</li>
+						{% endfor %}
 					</ul>
 				</div>
 			</div>
+
+			<div class="row hidden">
+				<div class="col-md-2 col-md-offset-3">
+					<h2>Want to see this near you?</h2>
+					<p>
+ 						Help us tell Wendy's that we want to see this new black bean burger in
+						stores near us. Imagine if we all had these nearby!
+					</p>
+				</div>
+		    <div class="col-md-3">
+		      <img src="black-bean-burger.jpg" class="img-responsive" alt="Wendy's Menu">
+		    </div>
+		  </div>
 
 		</div>
 
