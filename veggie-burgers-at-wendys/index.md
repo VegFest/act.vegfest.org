@@ -31,17 +31,17 @@ description: "Wendy's is testing a new vegan black bean burger at 24 locations a
 	<body>
 		<div class="container-fluid" id="top-heading">
 			<header class="row" id="campaign-header">  
-				<h1>Heading one</h1>
-				<p>More test here</p>
+				<h1>Wendy's: We want veggie burgers in our town too!</h1>
+				<p>Wendy's is testing veggie burgers at 24 locations in 3 states: Ohio, Utah, South Carolina. That's great, but we want veggie burgers at all locations.</p>
 			</header>
 
 			<section class="row" id="ask">
 				<div class="col-sm-4 col-sm-offset-4" id="ask-body">
 					<h2>We Want Veggie Burgers!</h2>					
 
-					With your support we can let Wendy's know that we want to see veggie
+					<p>With your support we can let Wendy's know that we want to see veggie
 					burgers at all of their locations. Sign up and we'll keep you posted
-					as the campaign goes on.
+					as the campaign goes on.</p>
 
 					<form accept-charset="UTF-8" action="https://formkeep.com/f/02515915d774" method="POST" class="form">
 						<input type="hidden" name="utf8" value="✓">
