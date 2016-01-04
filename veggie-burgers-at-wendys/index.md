@@ -219,6 +219,6 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 				</div>
 			</div>
 		</footer>
-		<br><br><br><br><br><br><br><br><br><br>
+		<br><br><br><br>
 	</body>
 </html>
