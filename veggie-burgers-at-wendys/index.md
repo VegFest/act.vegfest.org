@@ -44,7 +44,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 				<p>Wendy's is testing veggie burgers at 24 locations in 3 states: Ohio, Utah, South Carolina. That's great, but we want veggie burgers at all locations.</p>
 			</header>
 
-			<section class="row" id="ask">
+			<section class="row green-veg-pattern-background" id="ask">
 				<div class="col-sm-4 col-sm-offset-4" id="ask-body">
 					<h2>Tell Wendy's you want veggie burgers</h2>					
 
@@ -165,7 +165,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 		    </div>
 		  </div>
 
-			<footer>
+			<footer class="yellow-veg-pattern-background">
 				<a href="https://www.facebook.com/sharer/sharer.php?u={{page.base-url}}"
 					class="btn btn-primary"
 					role="button">
