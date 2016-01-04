@@ -80,7 +80,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 					</form>
 
 					<div class="privacy">
-						<a href="http://vegfest.org">VegFest</a> will contact you with news & updates.
+						We will contact you with news & updates.
 					</div>
 				</div>
 			</section>
