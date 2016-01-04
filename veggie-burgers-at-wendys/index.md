@@ -194,7 +194,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-2">
-						<img src="/images/VegFest-logo-black-sm.png" class="img-responsive" />
+						<img src="/images/VegFest-logo-black-sm.png" class="img-responsive" style="padding-top:10px;" />
 					</div>
 
 					<div class="pull-right">
