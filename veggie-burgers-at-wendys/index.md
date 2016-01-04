@@ -93,7 +93,7 @@ description: "Wendy's is testing a new vegan black bean burger at 24 locations a
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row" id="location-list">
 				<div class="col-md-4">
 					<h2>Ohio</h2>
 					<ul>
