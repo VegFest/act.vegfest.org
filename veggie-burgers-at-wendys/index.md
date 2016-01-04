@@ -198,14 +198,14 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 		<footer class="hidden-xs hidden-sm yellow-veg-pattern-background">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-2">
-						<p>Made by VegFest.</p>
+					<div class="col-sm-2">
+						<img src="/images/VegFest-logo-black-sm.png" class="img-responsive" />
 					</div>
 
 					<div class="pull-right">
 						<a
 							href="https://www.facebook.com/sharer/sharer.php?u={{page.base-url}}"
-							class="btn btn-primary btn-large"
+							class="btn btn-primary btn-lg"
 							role="button" >
 
 							<i class="fa fa-facebook"></i>
@@ -214,7 +214,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 
 						<a
 							href="https://twitter.com/intent/tweet?&text={{page.base-url}}"
-							class="btn btn-primary btn-large"
+							class="btn btn-primary btn-lg"
 							role="button" >
 
 							<i class="fa fa-twitter"></i>
