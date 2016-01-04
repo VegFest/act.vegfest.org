@@ -6,7 +6,8 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  }
+  margin-bottom: 25em !important;
+}
 
 html, body {
   height: 100%;
@@ -120,10 +121,12 @@ background-image: -ms-linear-gradient(
 }
 
 footer {
-  margin-top: 4%;
-  padding: 2%;
-  padding-bottom: 5%;
-  font-size: 1.1em;
+  position: fixed;
+  float: left;
+  bottom: 0;
+  width: 100%;
+  height: 4em;
+  padding: 1em;
 }
 
 .yellow-veg-pattern-background {

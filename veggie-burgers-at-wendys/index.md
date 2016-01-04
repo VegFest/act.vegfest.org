@@ -111,7 +111,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 			</div>
 
 			<div class="row" id="location-list">
-				<div class="col-md-4">
+				<div class="col-sm-4">
 					<h2>Ohio</h2>
 					<ul>
 						{% for item in site.data.ohio %}
@@ -124,7 +124,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 						{% endfor %}
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="col-sm-4">
 					<h2>Utah</h2>
 					<ul>
 						{% for item in site.data.ut %}
@@ -137,7 +137,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 						{% endfor %}
 					</ul>
 				</div>
-				<div class="col-md-4">
+				<div class="col-sm-4">
 					<h2>South Carolina</h2>
 					<ul>
 						{% for item in site.data.sc %}
@@ -164,20 +164,8 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 		      <img src="black-bean-burger.jpg" class="img-responsive" alt="Wendy's Menu">
 		    </div>
 		  </div>
-
-			<footer class="yellow-veg-pattern-background">
-				<a href="https://www.facebook.com/sharer/sharer.php?u={{page.base-url}}"
-					class="btn btn-primary"
-					role="button">
-					Share on Facebook
-				</a>
-				<a href="https://twitter.com/intent/tweet?related=fightfortheftr&text={{page.base-url}}"
-					class="btn btn-primary"
-					role="button">
-					Share on Twitter
-				</a>
-			</footer>
 		</div>
+
 		<script type="text/javascript">
 			var geojsonMarkerOptions = {
 					radius: 8,
@@ -207,10 +195,27 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 			ga('send', 'pageview');
 		</script>
 
-		<footer>
-			<div class="row">
-				<div class="col-md-10 col-sm-offset-1">
-					<p>This page was made by VegFest, inc | Contact: info@vegfest.org</p>
+		<footer class="hidden-xs hidden-sm yellow-veg-pattern-background">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2">
+						<p>Made by VegFest.</p>
+					</div>
+
+					<div class="pull-right">
+						<a
+							href="https://www.facebook.com/sharer/sharer.php?u={{page.base-url}}"
+							class="btn btn-primary"
+							role="button" >
+							Share on Facebook
+						</a>
+						<a
+							href="https://twitter.com/intent/tweet?&text={{page.base-url}}"
+							class="btn btn-primary"
+							role="button">
+							Share on Twitter
+						</a>
+					</div>
 				</div>
 			</div>
 		</footer>
