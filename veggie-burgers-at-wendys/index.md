@@ -1,13 +1,14 @@
 ---
 title: "Try the New Vegan Black Bean Burger at Wendy's"
 description: "Wendy's is testing a new vegan black bean burger at 24 locations across the US. Find out if there's one near you."
+base-url: https://act.vegfest.org/veggie-burgers-at-wendys
 ---
 
 <html>
 	<head>
 		<meta property="og:type" content="article">
-		<meta property="og:url" content="https://act.vegfest.org/veggie-burgers-at-wendys/">
-		<meta property="og:image" content="https://act.vegfest.org/veggie-burgers-at-wendys/black-bean-burger.jpg">
+		<meta property="og:url" content="{{page.base-url}}">
+		<meta property="og:image" content="{{page.base-url}}/black-bean-burger.jpg">
 		<meta property="og:site_name" content="Try the New Vegan Wendys Black Bean Burger">
 		<meta property="og:site_name" content="{{page.title}}">
 		<meta property="og:description" content="{{page.description}}">
@@ -29,6 +30,17 @@ description: "Wendy's is testing a new vegan black bean burger at 24 locations a
 		<script src="../func.js"></script>
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+		  	var js, fjs = d.getElementsByTagName(s)[0];
+		  	if (d.getElementById(id)) return;
+		  	js = d.createElement(s); js.id = id;
+		  	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=151742261555401";
+		  	fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+		</script>
+
 		<div class="container-fluid" id="top-heading">
 			<header class="row" id="campaign-header">  
 				<h1>Wendy's: We want veggie burgers in our town too!</h1>
@@ -39,7 +51,9 @@ description: "Wendy's is testing a new vegan black bean burger at 24 locations a
 				<div class="col-sm-4 col-sm-offset-4" id="ask-body">
 					<h2>Tell Wendy's you want veggie burgers</h2>					
 
-					<p>Wendy's is currently testing vegan black bean burgers at 24 locations across the country. If you live in Ohio, Utah or South Carolina, go buy a burger to show your support. We need to show Wendy's how much we want vegan options.</p>
+					<p>Wendy's is currently testing vegan black bean burgers across the country.
+					If you live near one of these locations, go buy a burger to show your support.
+					We need to show Wendy's how much we want vegan options.</p>
 					<p><strong>Sign now to tell Wendy's that we want veggie burgers everywhere.</strong></p>
 
 					<form accept-charset="UTF-8" action="https://formkeep.com/f/02515915d774" method="POST" class="form">
@@ -73,6 +87,12 @@ description: "Wendy's is testing a new vegan black bean burger at 24 locations a
 					</div>
 				</div>
 			</section>
+
+			<div class="row">
+				<div class="text-center col-md-12">
+					<h2>Go Eat a Burger:</h2>
+				</div>
+			</div>
 
 			<div class="row">
 				<div class="col-md-12">
@@ -148,6 +168,18 @@ description: "Wendy's is testing a new vegan black bean burger at 24 locations a
 		    </div>
 		  </div>
 
+			<footer>
+				<a href="https://www.facebook.com/sharer/sharer.php?u={{page.base-url}}"
+					class="btn btn-primary"
+					role="button">
+					Share on Facebook
+				</a>
+				<a href="https://twitter.com/intent/tweet?related=fightfortheftr&text={{page.base-url}}"
+					class="btn btn-primary"
+					role="button">
+					Share on Twitter
+				</a>
+			</footer>
 		</div>
 
 		<script type="text/javascript">
