@@ -205,14 +205,19 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 					<div class="pull-right">
 						<a
 							href="https://www.facebook.com/sharer/sharer.php?u={{page.base-url}}"
-							class="btn btn-primary"
+							class="btn btn-primary btn-large"
 							role="button" >
+
+							<i class="fa fa-facebook"></i>
 							Share on Facebook
 						</a>
+
 						<a
 							href="https://twitter.com/intent/tweet?&text={{page.base-url}}"
-							class="btn btn-primary"
-							role="button">
+							class="btn btn-primary btn-large"
+							role="button" >
+
+							<i class="fa fa-twitter"></i>
 							Share on Twitter
 						</a>
 					</div>
