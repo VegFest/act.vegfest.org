@@ -86,15 +86,15 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 			</section>
 
 			<div class="row" style="padding-left: 10%;padding-right: 10%;padding-bottom: 5%;">
-				<div class="col-md-12">
+				<div class="col-md-9">
 					<h1>Do you live in Ohio, Utah or South Carolina?</h1>
 					<p>
-						Wendy's is testing this veggie burger at these few locations to gauge the interest in vegetarian options. Based on how well the black bean burger sells at these locations, Wendy's may
-						then choose to roll out vegetarian options to their other stores. So if you live near one of these
-						locations, please go out to your local store and show your support.
-					</p>
-
+					By testing the veggie burger at these states, Wendy's is gauging the interest in vegetarian options. Based on how well the black bean burger sells at these locations, Wendy's may
+					then choose to roll out vegetarian options to their other stores. So if you live near one of these
+					locations, please go out to your local store and show your support. Check out the map and list of locations below.					</p>
 				</div>
+				<div class="col-md-3"><img src="black-bean-burger.jpg" class="img-responsive" alt="Wendy's Menu" style="padding-top:25px"></div>
+
 			</div>
 
 			<div class="row">
