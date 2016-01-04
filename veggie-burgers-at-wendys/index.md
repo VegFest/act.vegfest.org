@@ -1,15 +1,15 @@
 ---
-title: "Try the New Vegan Black Bean Burger at Wendys"
-description: "Wendys is testing a new vegan black bean burger at 24 locations across the US. Find out if there's one near you."
+title: "Try the New Vegan Black Bean Burger at Wendy's"
+description: "Wendy's is testing a new vegan black bean burger at 24 locations across the US. Find out if there's one near you."
 ---
 
 <html>
 	<head>
-		<meta property="og:title" content="{{page.title}}">
 		<meta property="og:type" content="article">
 		<meta property="og:url" content="https://act.vegfest.org/veggie-burgers-at-wendys/">
 		<meta property="og:image" content="https://act.vegfest.org/veggie-burgers-at-wendys/black-bean-burger.jpg">
 		<meta property="og:site_name" content="Try the New Vegan Wendys Black Bean Burger">
+		<meta property="og:site_name" content="{{page.title}}">
 		<meta property="og:description" content="{{page.description}}">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,12 +35,13 @@ description: "Wendys is testing a new vegan black bean burger at 24 locations ac
 				<p>More test here</p>
 			</header>
 
-
 			<section class="row" id="ask">
 				<div class="col-sm-4 col-sm-offset-4" id="ask-body">
-					<h2>Sign our Petition!</h2>
+					<h2>We Want Veggie Burgers!</h2>					
 
-					<p>We're great! Hooray. Sign our thing.</p>
+					With your support we can let Wendy's know that we want to see veggie
+					burgers at all of their locations. Sign up and we'll keep you posted
+					as the campaign goes on.
 
 					<form accept-charset="UTF-8" action="https://formkeep.com/f/02515915d774" method="POST" class="form">
 						<input type="hidden" name="utf8" value="✓">
@@ -80,20 +81,34 @@ description: "Wendys is testing a new vegan black bean burger at 24 locations ac
 			</div>
 
 			<div class="row">
-		    <div class="col-md-8">
-		      <h1>Wendys is testing a new vegan black bean burger at {{site.data.wendys | size}} locations across the US.</h1>
-		      <h2>
-		        If the black bean burger does well at these locations, Wendys may roll it out to other stores. If you live near one of these locations, please go support it.
-		      </h2>
-		    </div>
-		    <div class="col-md-4">
+				<div class="col-md-6">
+					<h2>Want to see this near you?</h2>
+					<p>
+ 						Help us tell Wendy's that we want to see this new black bean burger in
+						stores near us. Imagine if we all had these nearby!
+					</p>
+				</div>
+		    <div class="col-md-6">
 		      <img src="black-bean-burger.jpg" class="img-responsive" alt="" style="padding-top:20px;" />
 		    </div>
 		  </div>
 
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-6">
 					<div id="map-div"></div>
+				</div>			
+				<div class="col-md-6">
+					<h2>Go get the new veggie burger!</h2>
+					<p>
+					Do you live near a Wendy's that is testing the burger? Find out below!
+					Go visit your local Wendy's and support this intiative. Buy a tasty new
+					burger!
+					</p>
+					<p>
+					If the black bean burger does well at these locations, Wendy's may
+					roll it out to other stores. If you live near one of these
+					locations, please go support it.
+					</p>
 				</div>
 			</div>
 
