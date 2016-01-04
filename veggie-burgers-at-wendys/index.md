@@ -186,7 +186,6 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys
 				</a>
 			</footer>
 		</div>
-
 		<script type="text/javascript">
 			var geojsonMarkerOptions = {
 					radius: 8,
@@ -215,5 +214,14 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys
 			ga('create', '{{site.google_analytics_token}}', 'auto');
 			ga('send', 'pageview');
 		</script>
-  </body>
+
+		<footer>
+			<div class="row">
+				<div class="col-md-10 col-sm-offset-1">
+					<p>This page was made by VegFest, inc | Contact: info@vegfest.org</p>
+				</div>
+			</div>
+		</footer>
+
+	</body>
 </html>
