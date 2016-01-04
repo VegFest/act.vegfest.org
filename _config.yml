@@ -6,6 +6,7 @@ brand:
     red: '#EE4823'
     green: '#B5BE24'
     yellow: '#F8C238'
+    link: '#3F5ABF'
   fontface:
     primary: "'Open Sans', sans-serif"  #need to include this as a web font somehow
     primaryweight: 800

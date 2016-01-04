@@ -14,7 +14,7 @@ html, body {
 }
 
 #campaign-header {
-  background-color: {{site.brand.colors.yellow}};
+  /*background-color: {{site.brand.colors.yellow}};*/
   padding: 20px 0 40px 10%;
 }
 
@@ -29,16 +29,22 @@ html, body {
 
 #ask {
   background-color: {{site.brand.colors.green}};
+  background-image: url(images/carrot-tile.png);
+  background-repeat: repeat;
+  background-image-size: 200px 200px;
   padding-top: 0.5%;
   padding-bottom: 1%;
 }
 
 #ask-body {
-  background-color: {{site.brand.colors.blue}};
   padding-top:1%;
   padding-bottom: 2%;
   padding-left: 2%;
   padding-right: 2%;
+  background: linear-gradient(to bottom,#fff 0,#eaeaea 100%);
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 9px 0 rgba(0,0,0,0.7);
+    box-shadow: 0 1px 9px 0 rgba(0,0,0,0.7);
 }
 
 #ask-body .btn {
@@ -49,7 +55,15 @@ html, body {
   min-height: 30em;
 }
 
-a, a:link, a:visited, a:hover {color: #428BCA}
+a, a:link, a:visited {
+  color: {{site.brand.colors.link}};
+  text-decoration: underline;
+}
+
+a:hover {
+  color: {{site.brand.colors.blue}};
+  text-decoration: underline;
+}
 
 
 li {
