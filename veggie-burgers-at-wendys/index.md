@@ -89,7 +89,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 
 						<div class="form-group">
 							<label class="sr-only" for="zip_code">Zip Code</label>
-							<input type="number" id="zip_code" class="form-control" name="zip_code" placeholder="Zip Code" required>
+							<input type="text" id="zip_code" class="form-control" name="zip_code" placeholder="Zip Code" required>
 						</div>
 
 						<button type="submit" class="btn btn-lg btn-primary">Sign the Petition</button>					
