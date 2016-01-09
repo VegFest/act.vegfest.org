@@ -69,7 +69,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 					If you live near one of these locations, go buy a burger to show your support.
 					We need to show Wendy's how much we want vegan options.</p>
 					<p>
-					<div class="progress">
+					<div id="signature-progress" class="progress" style="display:none;">
 					    <div class="progress-bar progress-bar-danger four-sec-ease-in-out" role="progressbar" data-transitiongoal="80">3,813 signatures out of 5,000 goal</div>
 					</div>
 					</p>
@@ -257,6 +257,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 		<script>
 		$(document).ready(function() {
 				$(window).scroll( function () {
+					$('#signature-progress').show()
 					$('.progress .progress-bar').progressbar();
 					});
 
