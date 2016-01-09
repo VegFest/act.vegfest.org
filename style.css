@@ -1,6 +1,8 @@
 ---
 ---
 
+@font-face{font-family:'zona_black_regular';src:url('/assets/fonts/zona_black_regular-webfont.eot');src:url('/assets/fonts/zona_black_regular-webfont.eot?#iefix') format('embedded-opentype'),url('/assets/fonts/zona_black_regular-webfont.woff2') format('woff2'),url('/assets/fonts/zona_black_regular-webfont.woff') format('woff'),url('/assets/fonts/zona_black_regular-webfont.ttf') format('truetype'),url('/assets/fonts/zona_black_regular-webfont.svg#zona_black_regular') format('svg');font-weight:normal;font-style:normal}.zona{font-family:'zona_black_regular',sans-serif;letter-spacing:2px;font-weight:100}
+
 body {
   padding: 0;
   margin: 0;
@@ -47,10 +49,6 @@ html, body {
     box-shadow: 0 1px 9px 0 rgba(0,0,0,0.7);
 }
 
-#ask-body .btn {
-  background-color: {{site.brand.colors.red}};
-  padding:10px;
-}
 #map-div {
   min-height: 30em;
 }
@@ -148,4 +146,35 @@ footer {
 }
 .privacy {
   font-size: .80em;
+}
+
+.btn {
+  padding: 8px 24px;
+  font-family: 'zona_black_regular',sans-serif;
+  color: #fff;
+  background: {{site.brand.colors.blue}};
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: all, .2s;
+  font-family: 'zona_black_regular',sans-serif;
+  border-radius: 0;
+  border: none;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+}
+.btn-primary {
+  background-color: {{site.brand.colors.red}};
+  font-weight: normal;
+}
+.btn-primary:hover {
+  background: {{site.brand.colors.red-hover}};
+  color: #fff;
+}
+.btn-secondary {
+  background-color: {{site.brand.colors.blue}};
+}
+.btn-secondary:hover {
+  background: {{site.brand.colors.blue-hover}};
+  color: #fff;
 }

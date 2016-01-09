@@ -7,6 +7,8 @@ brand:
     green: '#B5BE24'
     yellow: '#F8C238'
     link: '#3F5ABF'
+    blue-hover: '#2a9896'
+    red-hover: 'rgb(161, 38, 12)'
   fontface:
     primary: "'Open Sans', sans-serif"  #need to include this as a web font somehow
     primaryweight: 800
