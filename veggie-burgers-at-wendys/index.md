@@ -35,6 +35,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 	  <script src="../leaflet.js"></script>
 	  <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
 	  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<script src="/assets/js/bootstrap-progressbar.min.js"></script>
 		<script src="../func.js"></script>
 
 		<!-- Facebook Pixel Code -->
@@ -67,6 +68,12 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 					<p>Wendy's is currently testing vegan black bean burgers across the country.
 					If you live near one of these locations, go buy a burger to show your support.
 					We need to show Wendy's how much we want vegan options.</p>
+					<p>
+					<div class="progress">
+					    <div class="progress-bar progress-bar-danger four-sec-ease-in-out" role="progressbar" data-transitiongoal="80">3,813 signatures out of 5,000 goal</div>
+					</div>
+					</p>
+
 					<p><strong>Sign now to tell Wendy's that we want veggie burgers everywhere.</strong></p>
 
 					<form accept-charset="UTF-8" action="https://formkeep.com/f/02515915d774" method="POST" class="form">
@@ -244,5 +251,16 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 			</div>
 		</footer>
 		<br><br><br><br>
+
+
+
+		<script>
+		$(document).ready(function() {
+				$(window).scroll( function () {
+					$('.progress .progress-bar').progressbar();
+					});
+
+		});
+		</script>
 	</body>
 </html>
