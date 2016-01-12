@@ -70,7 +70,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 					We need to show Wendy's how much we want vegan options.</p>
 					<p>
 					<div id="signature-progress" class="progress" style="display:none;">
-					    <div class="progress-bar progress-bar-danger four-sec-ease-in-out" role="progressbar" data-transitiongoal="80">3,813 signatures out of 5,000 goal</div>
+					    <div class="progress-bar progress-bar-danger four-sec-ease-in-out" role="progressbar" data-transitiongoal="80">4,003 signatures out of 5,000 goal</div>
 					</div>
 					</p>
 
