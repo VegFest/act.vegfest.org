@@ -31,7 +31,10 @@ function jfpioam(data){
       }
   }
 
-    var map = L.map('map-div', {scrollWheelZoom: false}).setView([39.7595884,-95], 5);
+  // Tell Leaflet where to find images.
+  L.Icon.Default.imagePath = '/assets/images';
+
+  var map = L.map('map-div', {scrollWheelZoom: false}).setView([39.7595884,-95], 5);
 
   L.tileLayer('https://{s}.tiles.mapbox.com/v3/drewrwilson.i6935ig3/{z}/{x}/{y}.png', {
       attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>',

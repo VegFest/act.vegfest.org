@@ -22,21 +22,21 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" />
-		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="../leaflet.css" />
-		<link rel="stylesheet" href="../style.css" />
+		<link rel="stylesheet" href="/assets/stylesheets/bootstrap-3.1.0.min.css">
+		<link rel="stylesheet" href="/assets/stylesheets/font-awesome-4.0.3.min.css">
+		<link rel="stylesheet" href="/assets/stylesheets/opensans.css">
+		<link rel="stylesheet" href="/assets/stylesheets/leaflet.css">
+		<link rel="stylesheet" href="/assets/stylesheets/style.css">
+
+		<script src="/assets/javascripts/jquery-1.10.1.min.js"></script>
+		<script src="/assets/javascripts/bootstrap-3.1.0.min.js"></script>
+		<script src="/assets/javascripts/bootstrap-progressbar-0.9.0.min.js"></script>
+		<script src="/assets/javascripts/leaflet.js"></script>
+		<script src="/assets/javascripts/func.js"></script>
 
 	  <!--[if lte IE 8]>
 	     <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
 	  <![endif]-->
-
-	  <script src="../leaflet.js"></script>
-	  <script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
-	  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-		<script src="/assets/js/bootstrap-progressbar.min.js"></script>
-		<script src="../func.js"></script>
 
 		<!-- Facebook Pixel Code -->
 		<script>
@@ -225,7 +225,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-2">
-						<img src="/images/VegFest-logo-black-sm.png" class="img-responsive" style="padding-top:10px;" />
+						<img src="/assets/images/VegFest-logo-black-sm.png" class="img-responsive" style="padding-top:10px;" />
 					</div>
 
 					<div class="pull-right">

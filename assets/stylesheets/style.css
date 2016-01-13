@@ -129,19 +129,19 @@ footer {
 
 .yellow-veg-pattern-background {
   background-color: {{site.brand.colors.yellow}};
-  background-image: url(images/red-veg-tile-invert.png);
+  background-image: url('/assets/images/red-veg-tile-invert.png');
   background-repeat: repeat;
 }
 
 .green-veg-pattern-background {
   background-color: {{site.brand.colors.green}};
-  background-image: url(images/carrot-tile.png);
+  background-image: url('/assets/images/carrot-tile.png');
   background-repeat: repeat;
 }
 
 .red-veg-pattern-background {
   background-color: {{site.brand.colors.red}};
-  background-image: url(images/carrot-tile.png);
+  background-image: url('/assets/images/carrot-tile.png');
   background-repeat: repeat;
 }
 .privacy {
