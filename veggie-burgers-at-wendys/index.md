@@ -70,7 +70,7 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 					We need to show Wendy's how much we want vegan options.</p>
 					<p>
 					<div id="signature-progress" class="progress" style="display:none;">
-					    <div class="progress-bar progress-bar-danger four-sec-ease-in-out" role="progressbar" data-transitiongoal="80">4,003 signatures out of 5,000 goal</div>
+					    <div class="progress-bar progress-bar-danger four-sec-ease-in-out" role="progressbar" data-transitiongoal="80"><span id="petition-count">4,003</span> signatures out of <span id="petition-goal">5,000</span> goal</div>
 					</div>
 					</p>
 
@@ -256,10 +256,18 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 
 		<script>
 		$(document).ready(function() {
+				/* get the current number of signatures and update the html of the page */
+				$.getJSON( "https://signature-data-backend.herokuapp.com", function( data ) {
+					$('#petition-count').html(data.totalCount);
+				});
+
+				/* show the progress bar when someone scrolls */
 				$(window).scroll( function () {
 					$('#signature-progress').show()
 					$('.progress .progress-bar').progressbar();
 					});
+
+
 
 		});
 		</script>
