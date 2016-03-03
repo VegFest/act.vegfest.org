@@ -4,7 +4,7 @@ description: "Vegan brownies, muffins, salad dressing, pancake mix may be coming
 base-url: https://act.vegfest.org/43-new-vegan-products-at-walmart-and-target/
 shareimg: "/assets/img/43-new-vegan-products-at-walmart-and-target/43-products-social-media-share.jpg"
 topheading: "BREAKING: Walmart & Target rolling out 43 new vegan products. Find out if they are in your area"
-subheading: "In the next few weeks both Walmart and Target are rolling out 43 new vegan products from Hampton Creek at stores across the country. Vegan brownies, muffins, salad dressing, cookies, pancake mix and scramble may be coming to a Walmart or Target near you"
+subheading: "In the next few weeks both Walmart and Target are rolling out 43 new vegan products from Hampton Creek at stores across the country. Vegan brownies, muffins, salad dressing, cookies, pancake mix and scramble may be coming to a Walmart or Target near you."
 calltoaction:
   heading: "Are these available in my area?"
   description: "The new vegan brownie mix, cookies, muffins, pancake mix and more are rolling out at Walmart & Target beginning March 19"
