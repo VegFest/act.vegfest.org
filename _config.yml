@@ -16,3 +16,5 @@ brand:
     secondaryweight: 300
     body: "'Open Sans', sans-serif"
     bodyweight: 400
+assets_dir: "assets/"
+img_dir: "images/"
