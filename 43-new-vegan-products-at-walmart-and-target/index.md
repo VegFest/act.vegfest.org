@@ -2,7 +2,7 @@
 title: "New Vegan Products Coming to Walmart and Target"
 description: "Vegan brownies, muffins, salad dressing, pancake mix may be coming to a Walmart or Target near you"
 base-url: https://act.vegfest.org/43-new-vegan-products-at-walmart-and-target/
-shareimg: "/assets/img/43-new-vegan-products-at-walmart-and-target/43-products-social-media-share.jpg"
+shareimage: "https://act.vegfest.org/assets/images/43-new-vegan-products-at-walmart-and-target/43-products-social-media-share.jpg"
 topheading: "BREAKING: Walmart & Target rolling out 43 new vegan products. Find out if they are in your area"
 subheading: "In the next few weeks both Walmart and Target are rolling out 43 new vegan products from Hampton Creek at stores across the country. Vegan brownies, muffins, salad dressing, cookies, pancake mix and scramble may be coming to a Walmart or Target near you."
 calltoaction:
@@ -18,7 +18,7 @@ calltoaction:
 
 		<meta property="og:type" content="article">
 		<meta property="og:url" content="{{page.base-url}}">
-		<meta property="og:image" content="/assets/images/43-new-vegan-products-at-walmart-and-target/43-products-social-media-share.jpg">
+		<meta property="og:image" content="{{page.shareimage}}">
 		<meta property="og:title" content="{{page.title}}">
 		<meta property="og:site_name" content="{{page.title}}">
 		<meta property="og:description" content="{{page.description}}">
@@ -26,7 +26,7 @@ calltoaction:
 		<meta name="twitter:card" content="summary_large_image">				
 		<meta name="twitter:title" content="{{page.title}}">
 		<meta name="twitter:description" content="{{page.description}}">
-		<meta name="twitter:image" content="/assets/images/43-new-vegan-products-at-walmart-and-target/43-products-social-media-share.jpg">
+		<meta name="twitter:image" content="{{page.shareimage}}">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
