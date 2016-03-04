@@ -1,6 +1,6 @@
 ---
-title: "New Vegan Products Coming to Walmart and Target"
-description: "Vegan brownies, muffins, salad dressing, pancake mix may be coming to a Walmart or Target near you"
+title: "43 New Vegan Products Coming to Walmart and Target"
+description: "Vegan brownies, muffins, salad dressing, pancake mix. Find out if the they're available at the Walmart or Target near you"
 base-url: https://act.vegfest.org/43-new-vegan-products-at-walmart-and-target/
 shareimage: "https://act.vegfest.org/assets/images/43-new-vegan-products-at-walmart-and-target/43-products-social-media-share.jpg"
 topheading: "BREAKING: Walmart & Target rolling out 43 new vegan products. Find out if they are in your area"
