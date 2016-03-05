@@ -2,6 +2,7 @@
 title: "Wendy's now offering a veggie burger in 3 states"
 description: "Wendy's is currently offering a new vegan black bean burger at 24 locations across the US. Find out if there's one near you. Tell Wendy's you want vegetarian options at all their locations."
 base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
+showprogressbar: false
 ---
 
 <html>
@@ -28,11 +29,11 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 		<link rel="stylesheet" href="/assets/stylesheets/leaflet.css">
 		<link rel="stylesheet" href="/assets/stylesheets/style.css">
 
-		<script src="/assets/javascripts/jquery-1.10.1.min.js"></script>
-		<script src="/assets/javascripts/bootstrap-3.1.0.min.js"></script>
-		<script src="/assets/javascripts/bootstrap-progressbar-0.9.0.min.js"></script>
-		<script src="/assets/javascripts/leaflet.js"></script>
-		<script src="/assets/javascripts/func.js"></script>
+		<script src="/assets/{{site.js_dir}}jquery-1.10.1.min.js"></script>
+		<script src="/assets/{{site.js_dir}}bootstrap-3.1.0.min.js"></script>
+		<script src="/assets/{{site.js_dir}}bootstrap-progressbar-0.9.0.min.js"></script>
+		<script src="/assets/{{site.js_dir}}leaflet.js"></script>
+		<script src="/assets/{{site.js_dir}}func.js"></script>
 
 	  <!--[if lte IE 8]>
 	     <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
@@ -253,9 +254,9 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 		<br><br><br><br>
 
 
-
+		{% if page.showprogressbar %}
 		<script>
-		/*
+
 		$(document).ready(function() {
 				/* get the current number of signatures and update the html of the page */
 				$.getJSON( "https://signature-data-backend.herokuapp.com", function( data ) {
@@ -270,7 +271,9 @@ base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 
 
 
-		});*/
+		});
 		</script>
+		{% endif %}
+
 	</body>
 </html>
