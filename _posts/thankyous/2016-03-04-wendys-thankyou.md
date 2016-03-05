@@ -1,6 +1,6 @@
 ---
 layout: thankyou-general
-permalink: /wendys-thankyou
+permalink: /wendys-thankyou/
 base-url: https://act.vegfest.org/veggie-burgers-at-wendys/
 heading: "Thank you for telling Wendy's that we want a veggie burger!"
 subheading: "We'll be in touch with any news"
