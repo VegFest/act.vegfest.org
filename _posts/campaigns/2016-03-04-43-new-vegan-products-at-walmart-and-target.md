@@ -1,5 +1,6 @@
 ---
 layout: campaign_default
+permalink: /43-new-vegan-products-at-walmart-and-target
 title: "43 New Vegan Products Coming to Walmart and Target"
 description: "Vegan brownies, muffins, salad dressing, pancake mix. Find out if the they're available at the Walmart or Target near you"
 base-url: https://act.vegfest.org/43-new-vegan-products-at-walmart-and-target/
