@@ -1,5 +1,5 @@
 permalink: /404.html
-permalink: /:title
+permalink: /:title/
 google_analytics_token: UA-1111502-19
 brand:
   colors:
