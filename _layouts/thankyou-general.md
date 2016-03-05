@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="/assets/stylesheets/font-awesome-4.0.3.min.css">
     <link rel="stylesheet" href="/assets/stylesheets/style.css">
 
-    <script src="/assets/javascripts/jquery-1.10.1.min.js"></script>
-    <script src="/assets/javascripts/bootstrap-3.1.0.min.js"></script>
+    <script src="/assets/{{site.js_dir}}jquery-1.10.1.min.js"></script>
+    <script src="/assets/{{site.js_dir}}bootstrap-3.1.0.min.js"></script>
   </head>
   <body class="red-veg-pattern-background">
     <div class="container-fluid" id="top-heading">

@@ -19,3 +19,4 @@ brand:
     bodyweight: 400
 assets_dir: "assets/"
 img_dir: "images/"
+js_dir: "javascripts/"

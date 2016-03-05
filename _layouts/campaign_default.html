@@ -1,4 +1,5 @@
 ---
+asdad: "ada"
 ---
 
 <!DOCTYPE html>
@@ -25,10 +26,10 @@
 		<link rel="stylesheet" href="/assets/stylesheets/opensans.css">
 		<link rel="stylesheet" href="/assets/stylesheets/style.css">
 
-		<script src="/assets/javascripts/jquery-1.10.1.min.js"></script>
-		<script src="/assets/javascripts/bootstrap-3.1.0.min.js"></script>
+		<script src="/assets/{{ site.js_dir }}jquery-1.10.1.min.js"></script>
+		<script src="/assets/{{site.js_dir}}bootstrap-3.1.0.min.js"></script>
     {% if showprogressbar %}
-    <script src="/assets/javascripts/bootstrap-progressbar-0.9.0.min.js"></script>
+    <script src="/assets/{{site.js_dir}}bootstrap-progressbar-0.9.0.min.js"></script>
     {% endif %}
 
     <!-- Facebook Pixel Code -->
@@ -159,7 +160,7 @@
 			ga('send', 'pageview');
 		</script>
 
-    {% if showprogressbar %}
+    {% if page.showprogressbar %}
     <script>
 		$(document).ready(function() {
 				/* get the current number of signatures and update the html of the page */
