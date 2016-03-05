@@ -35,7 +35,7 @@ form:
     then choose to roll out vegetarian options to their other stores. So if you live near one of these
     locations, please go out to your local store and show your support. Check out the map and list of locations below.					</p>
   </div>
-  <div class="col-md-3"><img src="/{{site.assets_dir}}{{site.img_dir}}black-bean-burger.jpg" class="img-responsive" alt="Wendy's Menu" style="padding-top:25px"></div>
+  <div class="col-md-3"><img src="/{{site.assets_dir}}{{site.img_dir}}veggie-burgers-at-wendys/black-bean-burger.jpg" class="img-responsive" alt="Wendy's Menu" style="padding-top:25px"></div>
 
 </div>
 
@@ -98,7 +98,7 @@ form:
     </p>
   </div>
   <div class="col-md-3">
-    <img src="/{{site.assets_dir}}{{site.img_dir}}black-bean-burger.jpg" class="img-responsive" alt="Wendy's Menu">
+    <img src="/{{site.assets_dir}}{{site.img_dir}}veggie-burgers-at-wendys/black-bean-burger.jpg" class="img-responsive" alt="Wendy's Menu">
   </div>
 </div>
 </div>
