@@ -194,3 +194,7 @@ footer {
     -o-transition: width 4s ease-in-out;
     transition: width 4s ease-in-out;
 }
+
+.error {
+  color: red;
+}
